@@ -24,7 +24,7 @@ export default class Card {
     getPriceWithDiscout(): number {
         let price = 0;
 
-        for(let item of this.items) {
+        for(const item of this.items) {
             if(item.discount) {
                 price += item.price - (item.price * (item.discount / 100))
             };
