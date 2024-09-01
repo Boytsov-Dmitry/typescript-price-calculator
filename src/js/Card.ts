@@ -14,7 +14,7 @@ export default class Card {
     getFullPrice(): number {
         let price = 0;
 
-        for(let item of this.items) {
+        for(const item of this.items) {
             price += item.price
         };
         

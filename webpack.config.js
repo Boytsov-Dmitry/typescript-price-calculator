@@ -23,8 +23,12 @@ entry: './src/index.js',
                 use: {
                     loader: "ts-loader",
                 }
-            }
+            }   
         ]
+
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js']
     },
     plugins: [
         new HTMLWebpackPlugin({
