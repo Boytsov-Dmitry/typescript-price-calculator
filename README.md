@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/mc4de9fd5jw8iwp8?svg=true)](https://ci.appveyor.com/project/Boytsov-Dmitry/typescript-price-calculator)
