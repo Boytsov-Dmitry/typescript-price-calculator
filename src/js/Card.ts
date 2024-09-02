@@ -12,14 +12,8 @@ export default class Card {
     };
 
     getFullPrice(): number {
-        let price = 0;
-
-        for(const item of this.items) {
-            price += item.price
-        };
-        
-        return price;
-    }
+        return this.items.reduce(((result, item) => result + item.price), 0)
+    };
 
     getPriceWithDiscout(): number {
         let price = 0;
